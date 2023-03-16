@@ -2,7 +2,19 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    fontFamily:{
+      'rubik': ['Rubik', 'sans-serif'],
+      
+      'noto': ['Noto Serif JP', 'serif'],
+    },
+   
+    extend: {
+      colors: {
+      'text-ash': '#2E2E2B',
+      'bg-white': '#F5F4F0',
+      'footer' : '#5C5648',
+    },
+  },
   },
   plugins: [],
 }
