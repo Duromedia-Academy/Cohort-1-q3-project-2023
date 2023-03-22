@@ -1,6 +1,9 @@
+
+
+
 const Carerepair = () => {
     return (  
-        <div  className=" max-w-full p-[20px]  sm:w-full">
+        <div  className=" max-w-full p-[20px]  sm:max-w-full">
             {/* FIRST SECTION */}
             <div className="text-center bg-slate-400 p-[0] min-w-[320px]  sm:max-w-full">
                 <div className="p-[10px]">
@@ -30,7 +33,6 @@ const Carerepair = () => {
 
             {/* SECOND SECTION */}
     <div className="mt-[100px] lg:flex md:flex justify-center mb-[100px] sm-max-w-full">
-    
         <div className="">
             <h4 className="m-[50px]  font-bold text-4xl text-gray-400">How can we help  you ? </h4>
             <p className="ml-[50px] invinsible lg:visible sm:invisible  md:visible " >Repair</p>
