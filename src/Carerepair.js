@@ -93,7 +93,7 @@ const Carerepair = () => {
     <div className="lg:flex md:flex lg:max-h-[700px] m-[20px] mt-[50px]">
         
         <div className="m-[10px]">
-                <img className="h-[700px] w-[700px]" src={ require ("./assets/anifimg/third.png")} alt=""/>
+                <img className="h-[700px] w-[700px]" src={ require ("./assets/anifimg/map.png")} alt=""/>
             </div>
            
             <div className="lg:overflow-y-auto m-[10px]">
