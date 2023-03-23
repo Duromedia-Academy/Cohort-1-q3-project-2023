@@ -567,9 +567,9 @@ video {
   width: 100%;
 }
 
-@media (min-width: 425px){
+@media (min-width: 640px){
   .container{
-    max-width: 425px;
+    max-width: 640px;
   }
 }
 
@@ -585,9 +585,15 @@ video {
   }
 }
 
-@media (min-width: 1440px){
+@media (min-width: 1280px){
   .container{
-    max-width: 1440px;
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px){
+  .container{
+    max-width: 1536px;
   }
 }
 
@@ -759,6 +765,10 @@ video {
   margin-top: 70px;
 }
 
+.ml-\[80px\]{
+  margin-left: 80px;
+}
+
 .flex{
   display: flex;
 }
@@ -853,6 +863,10 @@ video {
 
 .max-w-full{
   max-width: 100%;
+}
+
+.max-w-\[767px\]{
+  max-width: 767px;
 }
 
 .grid-cols-2{
@@ -1260,7 +1274,7 @@ video {
   text-decoration-line: underline;
 }
 
-@media (min-width: 425px) and (max-width: 767px){
+@media (min-width: 640px){
   .sm\:visible{
     visibility: visible;
   }
@@ -1297,12 +1311,12 @@ video {
     width: 100%;
   }
 
-  .sm\:max-w-full{
-    max-width: 100%;
+  .sm\:max-w-\[767px\]{
+    max-width: 767px;
   }
 
-  .sm\:overflow-x-scroll{
-    overflow-x: scroll;
+  .sm\:max-w-full{
+    max-width: 100%;
   }
 
   .sm\:border-b-\[1px\]{
@@ -1319,7 +1333,7 @@ video {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1023px){
+@media (min-width: 768px){
   .md\:visible{
     visibility: visible;
   }
@@ -1451,8 +1465,20 @@ video {
     display: flex;
   }
 
+  .lg\:hidden{
+    display: none;
+  }
+
   .lg\:max-h-\[700px\]{
     max-height: 700px;
+  }
+
+  .lg\:max-w-\[767px\]{
+    max-width: 767px;
+  }
+
+  .lg\:max-w-full{
+    max-width: 100%;
   }
 
   .lg\:space-x-20 > :not([hidden]) ~ :not([hidden]){

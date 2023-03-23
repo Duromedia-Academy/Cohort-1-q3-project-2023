@@ -1,9 +1,10 @@
-
+import React from "react";
+import Carousel from "./component/Carousel";
 
 
 const Carerepair = () => {
     return (  
-        <div  className=" max-w-full p-[20px]  sm:max-w-full">
+        <div  className=" max-w-full p-[20px]  lg:max-w-full">
             {/* FIRST SECTION */}
             <div className="text-center bg-slate-400 p-[0] min-w-[320px]  sm:max-w-full">
                 <div className="p-[10px]">
@@ -32,12 +33,12 @@ const Carerepair = () => {
             {/* FIRST SECTION END */}
 
             {/* SECOND SECTION */}
-    <div className="mt-[100px] lg:flex md:flex justify-center mb-[100px] sm-max-w-full">
+    <div className="mt-[100px]  md:flex lg:flex justify-center mb-[100px] max-w-full">
         <div className="">
             <h4 className="m-[50px]  font-bold text-4xl text-gray-400">How can we help  you ? </h4>
-            <p className="ml-[50px] invinsible lg:visible sm:invisible  md:visible " >Repair</p>
-            <p  className="ml-[50px] invinsible lg:visible sm:invisible  md:visible " >care</p>
-            <p  className="ml-[50px] invinsible lg:visible sm:invisible  md:visible " >Warranty</p>
+            <p className="ml-[50px] invinsible lg:visible   md:visible " >Repair</p>
+            <p  className="ml-[50px] invinsible lg:visible   md:visible " >care</p>
+            <p  className="ml-[50px] invinsible lg:visible  md:visible " >Warranty</p>
         </div>
        
         
@@ -71,7 +72,7 @@ const Carerepair = () => {
 <br/><br/>
 
     {/* THIRD SECTION */}
-    <div className="lg:flex mt-[70px] mb-[50px] lg:relative">
+    <div className="lg:flex md:flex mt-[70px] mb-[50px] lg:relative">
         <div className="p-[10px]">       
             <img className="h-[700px] w-[6000px]" src={ require ("./assets/anifimg/second.png")} alt=""/>
         </div>
@@ -87,9 +88,9 @@ const Carerepair = () => {
     <br /><br /><br />
 
     {/* FOURTH SECTION */}
-    <div className="xs:max-w-full mt-[60px] mb-[60px]">
+    <div className="max-w-full mt-[60px] mb-[60px]">
         <p className="font-bold font-noto text-center text-[2rem]">VIND HET DICHTSTBIJZIJNDE CARE & REPAIR PUNT</p>
-    <div className="lg:flex lg:max-h-[700px] m-[20px] mt-[50px]">
+    <div className="lg:flex md:flex lg:max-h-[700px] m-[20px] mt-[50px]">
         
         <div className="m-[10px]">
                 <img className="h-[700px] w-[700px]" src={ require ("./assets/anifimg/third.png")} alt=""/>
@@ -233,8 +234,13 @@ const Carerepair = () => {
 
 <br /><br /><br />
     {/* SIXTH SECTION */}
-    <div className="mt-[60px] mb-[60px]">
-        <div className="flex justify-center sm:overflow-x-scroll sm:w-[450px]">
+    <section className="lg:hidden">
+      <Carousel/>
+      </section>
+
+      
+<div className="hidden lg:max-w-full  mt-[60px] mb-[60px] lg:block">
+        <div className="flex justify-center  sm:w-[450px]">
             <div className="w-[200px] border-r-[1px] border-black p-[5px]">
                 <div className="m-[10px] ">
                     <img className="w-[200px] h-[250px]" src={require ("./assets/anifimg/third.png")} alt="" />
@@ -294,11 +300,13 @@ const Carerepair = () => {
     </div>
     {/* SIXTH SECTION END */}
 
+
+
 <br /><br /><br />
     {/* SEVENTH SECTION */}
-      <div className="max-w-full xs:w-full mb-[50px] mt-[50px]">
+      <div className="max-w-full  mb-[50px] mt-[50px]">
        
-        <div className="lg:flex justify-center bg-green-500 ml-[20px]">
+        <div className="lg:flex md:flex justify-center bg-green-500 ml-[20px]">
             <div className="">
             <img className="w-[800px] h-[800px]" src={require ("./assets/anifimg/third.png")} alt=""/>
             </div>
@@ -332,7 +340,7 @@ const Carerepair = () => {
     <br /><br />
 
     {/* EIGHT SECTION */}
-    <div className="sm:max-w-full md:max-w-full mt-[60px] xs-max-w-full mb-[50px]">
+    <div className="max-w-full md:max-w-full mt-[60px]  mb-[50px]">
         <div className="font-bold font-noto text-[3rem] max-w-[400px] m-auto ">
             <div>
                 <h1>TAKING</h1>
@@ -345,7 +353,7 @@ const Carerepair = () => {
         </div> 
         </div>
         <div className="lg:flex md:flex justify-center">
-            <div className="w-[500px] sm:w-full xs:max-w-full lg:border-r-[1px] md:border-r-[1px] sm:border-b-[1px] sm:text-center p-[15px] border-black m-[10px]">
+            <div className="w-[500px] w-full  lg:border-r-[1px] md:border-r-[1px] border-b-[1px] text-center p-[15px] border-black m-[10px]">
                 <div className="image">
                 <img className="w-[500px] sm:w-full xs:full h-[800px]" src={require ("./assets/anifimg/fourth.png")} alt=""/>
                 </div>
@@ -392,7 +400,7 @@ const Carerepair = () => {
         <div className="lg:flex justify-center text-[1rem]">
             <div className=" sm:border-b-[1px] md:border-b-[1px] border-black  lg:border-r-[1px] m-[10px] p-[20px]">
                 <div className="icon">
-                <img className="lg:ml-[60px] md:ml-[220px] mb-[10px] sm:ml-[80px] lg:mb-[10px]" src={require ("./assets/anifimg/icons8-phone-50.png")} alt=""/>
+                <img className="lg:ml-[60px] md:ml-[220px] mb-[10px] ml-[80px] lg:mb-[10px]" src={require ("./assets/anifimg/icons8-phone-50.png")} alt=""/>
                 </div>
                 <div className="mb-[10px]">
                   <h4 className="font-bold">CALL</h4>
@@ -400,9 +408,9 @@ const Carerepair = () => {
                 </div>   
                 <p>Open from <br /> Monday till Friday <br />from 8:00 till 18:00 CET </p>
             </div>
-             <div className="sm:border-b-[1px] md:border-b-[1px] border-black  lg:border-r-[1px]  m-[10px] p-[20px]">
+             <div className="border-b-[1px] md:border-b-[1px] border-black  lg:border-r-[1px]  m-[10px] p-[20px]">
                 <div className="icon">
-                <img className="ml-[70px] sm:ml-[80px] md:ml-[220px] mb-[10px]" src={require ("./assets/anifimg/icons8-mail-50.png")} alt=""/>
+                <img className="ml-[70px] ml-[80px] md:ml-[220px] mb-[10px]" src={require ("./assets/anifimg/icons8-mail-50.png")} alt=""/>
                 </div>
                 <div className="mb-[15px]">
                   <h4 className="font-bold">EMAIL</h4>
@@ -410,9 +418,9 @@ const Carerepair = () => {
                 </div>   
                 <p>We usually reply <br /> within 24hrs on working days</p>
             </div>
-             <div className="sm:border-b-[1px] md:border-b-[1px] border-black  lg:border-r-[1px]  m-[10px] p-[20px] ">
+             <div className="border-b-[1px] md:border-b-[1px] border-black  lg:border-r-[1px]  m-[10px] p-[20px] ">
                 <div className="image">
-                     <img className="ml-[40px] md:ml-[220px] sm:ml-[80px] mb-[10px]" src={require ("./assets/anifimg/icons8-region-50.png")} alt=""/>
+                     <img className="ml-[40px] md:ml-[220px] ml-[80px] mb-[10px]" src={require ("./assets/anifimg/icons8-region-50.png")} alt=""/>
                 </div>
                 <div className="mb-[10px]">
                   <h4 className="font-bold">VISIT OUR </h4>
