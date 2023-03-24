@@ -9,7 +9,7 @@ const options = {
     loop:true,
     items:3,
     margin:0,
-    autoplay:true,
+    autoplay:false,
     dots:true,
     autoPlayTimeout:8500,
     smartSpeed:450,

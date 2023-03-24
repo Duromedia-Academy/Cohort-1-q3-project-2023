@@ -9,6 +9,7 @@ import Carerepair from './Carerepair'
 import Ourphilosophy from './Ourphilosophy'
 import Careclimate from './Careclimate'
 import Footer from './component/Footer';
+import Aboutblog from './component/Aboutblog';
 
 
 
@@ -36,7 +37,11 @@ function App() {
           <Carerepair/>
         </Route>
       <Route exact path="/ourphilosophy">
+
           <Ourphilosophy/>
+        </Route>
+        <Route exact path= "/aboutblog">
+          <Aboutblog/>
         </Route>
       <Route exact path="/careclimate">
           <Careclimate/>

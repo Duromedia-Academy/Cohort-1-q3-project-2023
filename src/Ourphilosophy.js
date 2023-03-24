@@ -1,10 +1,12 @@
 // import React from 'react';
 import Carousel from "./component/Carousel" ;
+// import Aboutblog from "./component/Aboutblog";
+import { Link } from "react-router-dom";
 
 
 const Ourphilosophy = () => {
-    return ( 
-        <div className="container max-w-[1200px] bg-bg-white ">
+    return (
+        <div className="container max-w-[1200px] bg-bg-white">
 
             {/* header section */}
 
@@ -353,15 +355,19 @@ const Ourphilosophy = () => {
                     <h1 >MORE ABOUT US</h1>
                 </div>
                 <section className="md:hidden">
+                    <Link to="/aboutblog" >
                     <Carousel />
+                    </Link>
                 </section>
-
+            <Link to = '/aboutblog'> 
                 <div className="hidden md:block  ">
                     <div className="md:grid md:grid-cols-3  ">
                         <div className="md:border-r md:border-black md:pr-[10px] md:mr-[10px] lg:border-0 lg:pr-0 lg:mr-0 ">
-                            <img className='h-[300px] w-[250px] lg:h-[300px] lg:w-[300px] ' src= {require('./assets/mayoimg/4e.jpeg')} alt=""/>
-                            <h1 className="md:font-[600]" >MADE IN HOLLAND</h1>
+                           
+                             <img className='h-[300px] w-[250px] lg:h-[300px] lg:w-[300px] ' src= {require('./assets/mayoimg/4e.jpeg')} alt=""/>
+                            <h1 className="md:font-[600]" ><Link to = "/aboutblog">MADE IN HOLLAND</Link></h1>
                             <p>Made in holland with great care for quality and the enviroment. Ethically .made Designed to last.</p>
+                            
                         </div>
                         <div className="md:border-r md:border-black md:pr-[10px] lg:border-0 lg:border-l  lg:border-black lg:pl-[20px]  ">
                             <img className='h-[300px] w-[250px] lg:h-[300px] lg:w-[300px] ' src= {require('./assets/mayoimg/5b.jpeg')} alt="" />
@@ -375,6 +381,7 @@ const Ourphilosophy = () => {
                         </div>
                     </div>
                 </div>
+            </Link>
             </div>
     </div>
      );
