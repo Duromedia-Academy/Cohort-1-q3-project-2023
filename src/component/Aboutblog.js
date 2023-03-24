@@ -2,7 +2,7 @@
 import { Link } from 'react-router-dom';
 const Aboutblog = () => {
     return (
-        <div className=" bg-bg-white  ">
+        <div className=" bg-bg-white pt-[75px] md:pt-[20px] ">
             <div className="flex text-[13px] justify-between p-[10px]">
                 <div className="flex space-x-[40px] ">
                     <div className="">
