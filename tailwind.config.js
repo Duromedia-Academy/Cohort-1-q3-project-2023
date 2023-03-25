@@ -2,13 +2,9 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    // screens: {
+    
       
-    //   // 'sm' : {'min': '425px', 'max': '767px'},
-    //   // 'md' : {'min': '768px', 'max': '1023px'},
-    //   // 'lg' : '1024px',
-    //   // 'xl' : '1440px',
-    // },
+   
     fontFamily:{
       'rubik': ['Rubik', 'sans-serif'],
       

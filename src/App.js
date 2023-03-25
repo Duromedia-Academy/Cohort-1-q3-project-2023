@@ -18,7 +18,7 @@ function App() {
     <Router>
   <div className="App font-rubik text-text-ash">
     <Header/>
-    <div className="content pt-[80px]">
+    <div className="content ">
       <Switch>
       <Route exact path="/">
           <Home>  </Home>
