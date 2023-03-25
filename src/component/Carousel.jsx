@@ -11,8 +11,8 @@ const options = {
     loop: true,
     items: 3,
     margin: 0,
-    autoplay:true,
-    autoplayTimeout: 8500,
+    autoPlay:true,
+    autoPlayTimeout: 8500,
     smartSpeed: 450,
     nav: true,
     responsive: {
@@ -36,7 +36,7 @@ const Carousel = () => {
         <OwlCarousel className="owl-carousel owl-theme " {...options} >
 
 <div className="mt-[60px] mb-[60px] lg:max-w-full">
-        <div className="flex justify-center  sm:w-[450px]">
+        <div className="flex justify-center  ">
             <div className="w-[200px] border-r-[1px] border-black p-[5px]">
                 <div className="m-[10px] ">
                     <img className="w-[200px] h-[250px]" src={require ("../assets/anifimg/third.png")} alt="" />

@@ -27,7 +27,7 @@ const Carerepair = () => {
                 </div>
 
                 <div className=" p-5 ">
-                 <img className="w-[2000px]" src={require ("./assets/anifimg/first.png")} alt=""/>
+                 <img className="w-[2000px] h-[800px]" src={require ("./assets/anifimg/first.png")} alt=""/>
                 </div>
             </div>
             {/* FIRST SECTION END */}
@@ -36,9 +36,12 @@ const Carerepair = () => {
     <div className="mt-[100px]  md:flex lg:flex justify-center mb-[100px] max-w-full">
         <div className="">
             <h4 className="m-[50px]  font-bold text-4xl text-gray-400">How can we help  you ? </h4>
+            <div className="sm:invisible">
             <p className="ml-[50px] invinsible lg:visible   md:visible " >Repair</p>
             <p  className="ml-[50px] invinsible lg:visible   md:visible " >care</p>
             <p  className="ml-[50px] invinsible lg:visible  md:visible " >Warranty</p>
+            </div>
+          
         </div>
        
         
@@ -55,11 +58,11 @@ const Carerepair = () => {
 
             </div>
             <div className="p-[7px] border-b-[2px] border-black">
-                <p className="invisible sm:visible md:invisible lg:invisible">Care</p>
+                <p className="visible md:invisible lg:invisible">Care</p>
                 <p  className="hidden md:block lg:block">I can't get my cards out of my Cardprotector</p>
             </div>
             <div className="p-[7px] lg:border-b-[2px] md:border-b-[2px] lg:border-black">
-                <p className="invisible sm:visible md:invisible lg:invisible">Warranty</p>
+                <p className="visible md:invisible lg:invisible">Warranty</p>
                 <p className="hidden lg:block"> My Cardprotector's lever is loose</p>
             </div>
             <div className="hidden md:block lg:block p-[7px]">
@@ -240,7 +243,7 @@ const Carerepair = () => {
 
       
 <div className="hidden lg:max-w-full  mt-[60px] mb-[60px] lg:block">
-        <div className="flex justify-center  sm:w-[450px]">
+        <div className="flex justify-center  ">
             <div className="w-[200px] border-r-[1px] border-black p-[5px]">
                 <div className="m-[10px] ">
                     <img className="w-[200px] h-[250px]" src={require ("./assets/anifimg/third.png")} alt="" />
@@ -314,19 +317,19 @@ const Carerepair = () => {
                 <div className="m-[50px] p-[10px]">
                     
                 <div className="p-[10px] sm:mr-[10px] ">
-                    <div className="font-bold sm:text-5xl  xs:text-4xl text-8xl text-amber-800 pr-8">
+                    <div className="font-bold  text-8xl text-amber-800 pr-8">
                         <h1>REPAIR</h1>
                     </div>
                     <div className="flex">
-                        <h1 className="font-bold sm:text-5xl  xs:text-4xl text-8xl text-amber-800 mt-7 sm:ml-[]">DON'T  </h1>
+                        <h1 className="font-bold  text-8xl text-amber-800 mt-7 ">DON'T  </h1>
                 
-                        <div className=" mt-11 sm:font-xs xs:font-xs font-noto font-bold text-white sm:mr-[]">
+                        <div className=" mt-11 font-xs  font-noto font-bold text-white ">
                             <p>FOR PLANET</p>
                              <p>AND</p>
                             <p>WALLET POCKET</p>
                         </div>
                     </div>
-                    <div className="font-bold sm:text-5xl  xs:text-4xl text-8xl text-amber-800 pr-8  sm:mr-[10px] ">
+                    <div className="font-bold  text-8xl text-amber-800 pr-8  sm:mr-[10px] ">
                         <h1  className="" >REPLACE</h1>
                     </div>
                     <button className="border-[1px] border-white hover:text-red-700 hover:bg-white text-white mb-10 w-[80px]">click here </button>
@@ -353,9 +356,9 @@ const Carerepair = () => {
         </div> 
         </div>
         <div className="lg:flex md:flex justify-center">
-            <div className="w-[500px] w-full  lg:border-r-[1px] md:border-r-[1px] border-b-[1px] text-center p-[15px] border-black m-[10px]">
+            <div className="w-[500px] w-full  lg:border-r-[1px] lg:border-b-transparent md:border-b-transparent md:border-r-[1px] sm:border-b-[1px] text-center p-[15px] border-black m-[10px]">
                 <div className="image">
-                <img className="w-[500px] sm:w-full xs:full h-[800px]" src={require ("./assets/anifimg/fourth.png")} alt=""/>
+                <img className="w-[500px] sm:w-full " src={require ("./assets/anifimg/fourth.png")} alt=""/>
                 </div>
                 <p className="m-[20px]">CARDPROTECTOR CARE</p>
                 <p className="m-[20px] font-bold font-noto">The Cardprotector is made of anodised aluminium, plastic and stainless steel and is impervious to water.</p>
@@ -398,7 +401,7 @@ const Carerepair = () => {
             <h2 className="font-bold mb-[20px] text-[4rem]">GET IN CONTACT</h2>
         </div>
         <div className="lg:flex justify-center text-[1rem]">
-            <div className=" sm:border-b-[1px] md:border-b-[1px] border-black  lg:border-r-[1px] m-[10px] p-[20px]">
+            <div className=" border-b-[1px] md:border-r-[1px] sm:border-b-black md:border-r-transparent lg:border-r-black  lg:border-b-transparent md:border-b-black  lg:border-r-[1px] m-[10px] p-[20px]">
                 <div className="icon">
                 <img className="lg:ml-[60px] md:ml-[220px] mb-[10px] ml-[80px] lg:mb-[10px]" src={require ("./assets/anifimg/icons8-phone-50.png")} alt=""/>
                 </div>
@@ -408,19 +411,20 @@ const Carerepair = () => {
                 </div>   
                 <p>Open from <br /> Monday till Friday <br />from 8:00 till 18:00 CET </p>
             </div>
-             <div className="border-b-[1px] md:border-b-[1px] border-black  lg:border-r-[1px]  m-[10px] p-[20px]">
+             <div className=" border-b-[1px] md:border-r-[1px] sm:border-b-black md:border-r-transparent lg:border-r-black  lg:border-b-transparent md:border-b-black  lg:border-r-[1px] m-[10px] p-[20px]">
                 <div className="icon">
-                <img className="ml-[70px] ml-[80px] md:ml-[220px] mb-[10px]" src={require ("./assets/anifimg/icons8-mail-50.png")} alt=""/>
+                <img className=" lg:ml-[60px] md:ml-[220px] mb-[10px] ml-[80px] lg:mb-[10px] " src={require ("./assets/anifimg/icons8-mail-50.png")} alt=""/>
                 </div>
+                {/* ml-[70px] sm:ml- mb-[20px */}
                 <div className="mb-[15px]">
                   <h4 className="font-bold">EMAIL</h4>
                   <h4 className="font-bold">INFO@SECRID.COM</h4>
                 </div>   
                 <p>We usually reply <br /> within 24hrs on working days</p>
             </div>
-             <div className="border-b-[1px] md:border-b-[1px] border-black  lg:border-r-[1px]  m-[10px] p-[20px] ">
+             <div className=" border-b-[1px] md:border-r-[1px] sm:border-b-black md:border-r-transparent lg:border-r-black  lg:border-b-transparent md:border-b-black  lg:border-r-[1px] m-[10px] p-[20px]">
                 <div className="image">
-                     <img className="ml-[40px] md:ml-[220px] ml-[80px] mb-[10px]" src={require ("./assets/anifimg/icons8-region-50.png")} alt=""/>
+                     <img className=" lg:ml-[60px] md:ml-[220px] mb-[10px] ml-[80px] lg:mb-[10px]]" src={require ("./assets/anifimg/icons8-region-50.png")} alt=""/>
                 </div>
                 <div className="mb-[10px]">
                   <h4 className="font-bold">VISIT OUR </h4>
@@ -436,3 +440,6 @@ const Carerepair = () => {
 }
  
 export default Carerepair;
+// lg:mr-[120px]
+// md:ml-[220px]
+// ml-[40px]  ml-[80px]
