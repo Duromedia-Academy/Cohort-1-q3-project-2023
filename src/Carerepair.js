@@ -1,5 +1,5 @@
 import React from "react";
-import Carousel from "./component/Carousel";
+import Carousel from "./component/Carousel2";
 
 
 const Carerepair = () => {
