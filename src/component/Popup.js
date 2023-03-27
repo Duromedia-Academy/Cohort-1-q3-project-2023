@@ -7,10 +7,10 @@ const Popup = ({setModalOn}) => {
 
     }
     return (
-        <div onClick={close} className=" fixed left-[50px] right-[50px] top-[50px] bg-black bg-opacity-30 bg-contain">
+        <div onClick={close} className=" fixed left-[50px] right-[50px] top-[65px] bg-black bg-opacity-30 ">
         <div className="popup-wrapper relative bg-white  border border-black text-center m-auto max-w-[300px]" >
-           <ul className="list1 font-extrabold pt-[15px] ">
-           <button onClick={close} className=" close absolute  top-[-30px]  left-[10px]  border border-black px-[4px] text-sm ">x</button>
+           <ul className="list1 font-extrabold pt-[15px]  ">
+           <button onClick={close} className=" close absolute  top-[-25px]  left-[-40px]    md:top-[-30px]    border border-black px-[4px] text-sm ">x</button>
              <li> <Link to="/wallets">  WALLETS</Link></li>
               <li><Link to = "/stories"> STORIES</Link></li>
               <li><Link to = "/collections"> COLLECTIONS</Link></li>
@@ -26,7 +26,7 @@ const Popup = ({setModalOn}) => {
               <div className="dark-mode border-r border-black">
                  Dark mode
               </div>
-              <div className="setting flex space-x-2 pl-[20px]">
+              <div className="setting flex space-x-1 pl-[13px]">
               <img src={require('../assets/img/setting.png')} alt="setting" />
 
             <Link to = "">

@@ -18,15 +18,15 @@ const Header = () => {
 
     return (
       // secrid header part
-       <div className="   fixed w-full z-10 ">
-         <div className="  bg-white relative pt-4 pb-1">
+       <div className="   fixed w-full z-10  pt-4 m-auto max-w-[1200px]">
+         <div className="  bg-white relative pt-2 pb-2  m-auto max-w-[425px]   ">
 
-               <div className="secrid m-auto max-w-[300px] border-2 border-black border-solid bg-white h-auto p-[2px]  ">
+               <div className="secrid  m-auto max-w-[400px] border-2 border-black border-solid bg-white h-auto p-[2px]   ">
             
             <div className="text-center text-[20px] font-extrabold "> <Link to = "/"> SECRID</Link></div> 
 
             {/* icons in the secrid header */}
-            <div className="space-x-56">
+            <div className="space-x-[329px] pb-[5px]">
             <div className="flex space-x-1 absolute top-[20px]">
                <div className="menu">
 
