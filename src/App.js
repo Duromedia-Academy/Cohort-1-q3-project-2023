@@ -11,7 +11,6 @@ import Careclimate from './Careclimate'
 import Footer from './component/Footer';
 
 
-
 function App() {
   
   return (
