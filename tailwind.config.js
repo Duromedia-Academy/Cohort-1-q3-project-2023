@@ -3,6 +3,8 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     
+      
+   
     fontFamily:{
       'rubik': ['Rubik', 'sans-serif'],
       
