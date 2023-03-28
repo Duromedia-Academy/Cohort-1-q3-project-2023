@@ -1,5 +1,6 @@
 import React from "react";
-import Carousel from "./component/Carousel";
+import Carousel1 from "./component/Carousel1";
+// import Carousel from "./component/Carousel1";
 
 
 
@@ -24,7 +25,7 @@ const Wallets = () => {
 
 
         <section className="gap-10 p-5 mt-20">
-            <Carousel />
+            <Carousel1 />
         </section>
 
 

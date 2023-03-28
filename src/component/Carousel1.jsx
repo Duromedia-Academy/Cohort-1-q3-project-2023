@@ -29,7 +29,7 @@ const options = {
     }
 };
 
-const Carousel = () => {
+const Carousel1 = () => {
     return (
 
 
@@ -109,4 +109,4 @@ const Carousel = () => {
     );
 }
  
-export default Carousel;
+export default Carousel1;

@@ -621,8 +621,8 @@ video {
   bottom: 590px;
 }
 
-.left-\[10px\]{
-  left: 10px;
+.left-\[-40px\]{
+  left: -40px;
 }
 
 .left-\[50px\]{
@@ -633,16 +633,16 @@ video {
   right: 50px;
 }
 
-.top-\[-30px\]{
-  top: -30px;
+.top-\[-25px\]{
+  top: -25px;
 }
 
 .top-\[20px\]{
   top: 20px;
 }
 
-.top-\[50px\]{
-  top: 50px;
+.top-\[65px\]{
+  top: 65px;
 }
 
 .z-10{
@@ -781,8 +781,20 @@ video {
   width: 100%;
 }
 
+.max-w-\[1200px\]{
+  max-width: 1200px;
+}
+
 .max-w-\[300px\]{
   max-width: 300px;
+}
+
+.max-w-\[400px\]{
+  max-width: 400px;
+}
+
+.max-w-\[425px\]{
+  max-width: 425px;
 }
 
 .max-w-full{
@@ -822,16 +834,10 @@ video {
   margin-left: calc(4rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
-.space-x-2 > :not([hidden]) ~ :not([hidden]){
+.space-x-\[329px\] > :not([hidden]) ~ :not([hidden]){
   --tw-space-x-reverse: 0;
-  margin-right: calc(0.5rem * var(--tw-space-x-reverse));
-  margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
-.space-x-56 > :not([hidden]) ~ :not([hidden]){
-  --tw-space-x-reverse: 0;
-  margin-right: calc(14rem * var(--tw-space-x-reverse));
-  margin-left: calc(14rem * calc(1 - var(--tw-space-x-reverse)));
+  margin-right: calc(329px * var(--tw-space-x-reverse));
+  margin-left: calc(329px * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .rounded-full{
@@ -948,10 +954,6 @@ video {
   --tw-bg-opacity: 0.3;
 }
 
-.bg-contain{
-  background-size: contain;
-}
-
 .p-10{
   padding: 2.5rem;
 }
@@ -999,8 +1001,8 @@ video {
   padding-bottom: 3.5rem;
 }
 
-.pb-1{
-  padding-bottom: 0.25rem;
+.pb-2{
+  padding-bottom: 0.5rem;
 }
 
 .pb-4{
@@ -1027,6 +1029,10 @@ video {
   padding-bottom: 3px;
 }
 
+.pb-\[5px\]{
+  padding-bottom: 5px;
+}
+
 .pb-\[60px\]{
   padding-bottom: 60px;
 }
@@ -1035,8 +1041,8 @@ video {
   padding-left: 10px;
 }
 
-.pl-\[20px\]{
-  padding-left: 20px;
+.pl-\[13px\]{
+  padding-left: 13px;
 }
 
 .pr-16{
@@ -1073,10 +1079,6 @@ video {
 
 .pt-\[60px\]{
   padding-top: 60px;
-}
-
-.pt-\[80px\]{
-  padding-top: 80px;
 }
 
 .text-center{
@@ -1214,6 +1216,10 @@ video {
 @media (min-width: 768px){
   .md\:bottom-\[400px\]{
     bottom: 400px;
+  }
+
+  .md\:top-\[-30px\]{
+    top: -30px;
   }
 
   .md\:-ml-20{
