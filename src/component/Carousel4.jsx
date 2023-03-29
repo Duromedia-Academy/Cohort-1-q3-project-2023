@@ -8,14 +8,14 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 // owl carousel setting
 
 const options = {
-    loop:true,
-    items:7,
-    margin:0,
-    autoplay:true,
-    autoPlayTimeout:8500,
-    smartspeed:450,
-    nav:true,
-    dots:false,
+    loop: true,
+    items: 7,
+    margin: 0,
+    autoplay: true,
+    autoPlayTimeout: 8500,
+    smartspeed: 450,
+    nav: true,
+    dots: false,
     responsive:{
         0:{
             items:7
