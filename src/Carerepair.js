@@ -1,12 +1,12 @@
 import React from "react";
-import Carousel from "./component/Carousel";
+import Carousel2 from "./component/Carousel2";
 
 
 const Carerepair = () => {
     return (  
-        <div  className=" max-w-full p-[20px]  lg:max-w-full">
+        <div  className=" max-w-full p-[20px]  ">
             {/* FIRST SECTION */}
-            <div className="text-center bg-slate-400 p-[0] min-w-[320px]  sm:max-w-full">
+            <div className="text-center bg-slate-400 p-[0] min-w-[320px]  ">
                 <div className="p-[10px]">
                     <div className="flex justify-center">
                         <h1 className="font-bold text-8xl text-red-600 mt-7 sm:ml-[]">CARE  </h1>
@@ -33,7 +33,7 @@ const Carerepair = () => {
             {/* FIRST SECTION END */}
 
             {/* SECOND SECTION */}
-    <div className="mt-[100px]  md:flex lg:flex justify-center mb-[100px] max-w-full">
+    <div className="mt-[100px]  md:flex lg:flex justify-center mb-[100px] ">
         <div className="">
             <h4 className="m-[50px]  font-bold text-4xl text-gray-400">How can we help  you ? </h4>
             <div className="sm:invisible">
@@ -91,7 +91,7 @@ const Carerepair = () => {
     <br /><br /><br />
 
     {/* FOURTH SECTION */}
-    <div className="max-w-full mt-[60px] mb-[60px]">
+    <div className=" mt-[60px] mb-[60px]">
         <p className="font-bold font-noto text-center text-[2rem]">VIND HET DICHTSTBIJZIJNDE CARE & REPAIR PUNT</p>
     <div className="lg:flex md:flex lg:max-h-[700px] m-[20px] mt-[50px]">
         
@@ -237,12 +237,13 @@ const Carerepair = () => {
 
 <br /><br /><br />
     {/* SIXTH SECTION */}
-    <section className="lg:hidden">
-      <Carousel/>
+
+    <section className=" lg:hidden">
+      <Carousel2/>
       </section>
 
       
-<div className="hidden lg:max-w-full  mt-[60px] mb-[60px] lg:block">
+<div className="hidden lg:mt-[60px] lg:mb-[60px] lg:block">
         <div className="flex justify-center  ">
             <div className="w-[200px] border-r-[1px] border-black p-[5px]">
                 <div className="m-[10px] ">
@@ -307,16 +308,16 @@ const Carerepair = () => {
 
 <br /><br /><br />
     {/* SEVENTH SECTION */}
-      <div className="max-w-full  mb-[50px] mt-[50px]">
+      <div className="  mb-[50px] mt-[50px]">
        
         <div className="lg:flex md:flex justify-center bg-green-500 ml-[20px]">
             <div className="">
             <img className="w-[800px] h-[800px]" src={require ("./assets/anifimg/third.png")} alt=""/>
             </div>
             <div className=" w-[600px]">
-                <div className="m-[50px] p-[10px]">
+                <div className="m-[40px] p-[10px]">
                     
-                <div className="p-[10px] sm:mr-[10px] ">
+                <div className="p-[10px] mr-[10px] ">
                     <div className="font-bold  text-8xl text-amber-800 pr-8">
                         <h1>REPAIR</h1>
                     </div>
@@ -343,7 +344,7 @@ const Carerepair = () => {
     <br /><br />
 
     {/* EIGHT SECTION */}
-    <div className="max-w-full md:max-w-full mt-[60px]  mb-[50px]">
+    <div className=" md: mt-[60px]  mb-[50px]">
         <div className="font-bold font-noto text-[3rem] max-w-[400px] m-auto ">
             <div>
                 <h1>TAKING</h1>
@@ -356,7 +357,7 @@ const Carerepair = () => {
         </div> 
         </div>
         <div className="lg:flex md:flex justify-center">
-            <div className="w-[500px] w-full  lg:border-r-[1px] lg:border-b-transparent md:border-b-transparent md:border-r-[1px] sm:border-b-[1px] text-center p-[15px] border-black m-[10px]">
+            <div className=" w-full  lg:border-r-[1px] lg:border-b-transparent md:border-b-transparent md:border-r-[1px] sm:border-b-[1px] text-center p-[15px] border-black m-[10px]">
                 <div className="image">
                 <img className="w-[500px] sm:w-full " src={require ("./assets/anifimg/fourth.png")} alt=""/>
                 </div>
@@ -396,7 +397,7 @@ const Carerepair = () => {
 <br /><br /><br />
 
     {/* NIGHT SECTION */}
-    <div className="text-center mt-[50px] bg-gray-200 p-[70px] mb-[40px] max-w-full">
+    <div className="text-center mt-[50px] bg-gray-200 p-[70px] mb-[40px] ">
         <div>
             <h2 className="font-bold mb-[20px] text-[4rem]">GET IN CONTACT</h2>
         </div>

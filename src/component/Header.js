@@ -24,7 +24,7 @@ const Header = () => {
 
     return (
       // secrid header part
-       <div className="   fixed w-full z-10  pt-4 m-auto max-w-[1200px]">
+       <div className="   fixed w-full z-10  pt-4 m-auto max-w-full">
          <div className="  bg-white relative pt-2 pb-2  m-auto max-w-[425px]   ">
 
                <div className="secrid  m-auto max-w-[400px] border-2 border-black border-solid bg-white h-auto p-[2px]   ">
