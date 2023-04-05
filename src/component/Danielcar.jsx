@@ -25,7 +25,7 @@ const options = {
 
 };
 
-const Carousel5 = () => {
+const Danielcar = () => {
     return(
 
         <OwlCarousel className= " owl-carousel owl-theme px-4   " {...options}>
@@ -54,4 +54,4 @@ const Carousel5 = () => {
     );
 }
 
-export default Carousel5;
+export default Danielcar;

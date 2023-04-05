@@ -1,5 +1,5 @@
 // import React from 'react';
-import Carousel5 from "./component/Carousel5" ;
+import Danielcar from "./component/Danielcar" ;
 // import Aboutblog from "./component/Aboutblog";
 import { Link } from "react-router-dom";
 
@@ -356,7 +356,7 @@ const Ourphilosophy = () => {
                 </div>
                 <section className="md:hidden">
                     <Link to="/aboutblog" >
-                    <Carousel5/>
+                    <Danielcar/>
                     </Link>
                 </section>
             <Link to = '/aboutblog'> 

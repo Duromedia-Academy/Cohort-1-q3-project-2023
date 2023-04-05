@@ -1,5 +1,5 @@
 import React from "react";
-import Carousel2 from "./component/Carousel2";
+import Aneefcar from "./component/Aneefcar";
 
 
 const Carerepair = () => {
@@ -239,7 +239,7 @@ const Carerepair = () => {
     {/* SIXTH SECTION */}
 
     <section className=" lg:hidden">
-      <Carousel2/>
+      <Aneefcar/>
       </section>
 
       

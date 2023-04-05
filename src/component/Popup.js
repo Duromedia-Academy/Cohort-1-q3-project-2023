@@ -7,6 +7,7 @@ const Popup = ({setModalOn}) => {
 
     }
     return (
+      // <div className="bg-black bg-opacity-30 w-[100vw] h-[100vh]">
         <div onClick={close} className=" fixed left-[50px] right-[50px] top-[65px] bg-black bg-opacity-30 ">
         <div className="popup-wrapper relative bg-white  border border-black text-center m-auto max-w-[300px]" >
            <ul className="list1 font-extrabold pt-[15px]  ">
@@ -61,7 +62,7 @@ const Popup = ({setModalOn}) => {
           </div>
           </div>
         </div>
-          
+        //  </div>  
     );
 }
  

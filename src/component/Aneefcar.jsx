@@ -28,7 +28,7 @@ const options = {
     }
 };
 
-const Carousel2 = () => {
+const Aneefcar = () => {
     return(
 
 
@@ -96,4 +96,4 @@ const Carousel2 = () => {
         </OwlCarousel>
     );
 }
-export default Carousel2;
+export default Aneefcar;
