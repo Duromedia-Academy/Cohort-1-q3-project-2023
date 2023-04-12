@@ -44,6 +44,7 @@ const Home = () => {
         </div>
         </div>
         {/* BAND AND WALLET 1 END */}
+        {/* CAROUSEL 2 START */}
        <div className='grid grid-cols-2'>
         <div>
            <img className="h-[] w-[10]" src={require ('../src/assets/img/powder-thumbnail-small-v2.webp')} alt="" />
@@ -70,6 +71,7 @@ const Home = () => {
             <h1 className='text'>THE POWDER COLLECTION</h1>
         </div>
        </div>
+       {/* CAROUSEL 2 END */}
         <div>
         <div className="lg:flex md:flex mt-[70px] mb-[50px] lg:relative">
         <div className="p-[10px]">       
