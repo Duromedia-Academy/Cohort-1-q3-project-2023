@@ -1,17 +1,17 @@
 import { Link} from "react-router-dom";
 
-const Popup = ({setModalOn}) => {
+const Popup = ({setMenu}) => {
     const close = () => {
-        setModalOn(false)
+        setMenu(false)
 
 
     }
     return (
-      // <div className="bg-black bg-opacity-30 w-[100vw] h-[100vh]">
-        <div onClick={close} className=" fixed left-[50px] right-[50px] top-[65px] bg-black bg-opacity-30 ">
-        <div className="popup-wrapper relative bg-white  border border-black text-center m-auto max-w-[300px]" >
+      <div onClick={close} className="bg-black bg-opacity-30 w-[100vw] h-[100vh] ">
+        <div  className=" fixed left-[50px] right-[50px] top-[65px]  transition-all duration-500 ">
+        <div className="popup-wrapper relative bg-white  border border-black text-center m-auto max-w-[300px] transition-all duration-500" >
            <ul className="list1 font-extrabold pt-[15px]  ">
-           <button onClick={close} className=" close absolute  top-[-25px]  left-[-40px]    md:top-[-30px]    border border-black px-[4px] text-sm ">x</button>
+           <button onClick={close} className=" close absolute  top-[-25px]  left-[-40px]    md:top-[-30px]    border border-black px-[4px] text-sm transition-all duration-500 ">x</button>
              <li> <Link to="/wallets">  WALLETS</Link></li>
               <li><Link to = "/stories"> STORIES</Link></li>
               <li><Link to = "/collections"> COLLECTIONS</Link></li>
@@ -62,7 +62,7 @@ const Popup = ({setModalOn}) => {
           </div>
           </div>
         </div>
-        //  </div>  
+         </div>  
     );
 }
  

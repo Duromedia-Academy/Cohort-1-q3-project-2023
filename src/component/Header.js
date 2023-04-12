@@ -12,11 +12,11 @@ import { Link } from "react-router-dom";
 
 
 const Header = () => {
-  const [modalOn,setModalOn] = useState(false)
+  const [menu, setMenu] = useState(false)
     
    // menu click
    const clicked =() => {
-      setModalOn(true)
+      setMenu(true)
       
    }
 
@@ -37,7 +37,7 @@ const Header = () => {
                <div className="menu">
 
             {/* addede the menu click */}
-               <button onClick={clicked} className="menu  border-r-2 border-black px-[4px] ">
+               <button onClick={clicked} className="menu  border-r-2 border-black px-[4px] transition-all duration-500 ">
                   <img src={require ('../assets/img/menu.png')} alt="" />
                </button>
             {/* end  */}
@@ -72,7 +72,7 @@ const Header = () => {
       
          </div>
         {/* secrid navmenu   */}
-            {modalOn && <Popup setModalOn={setModalOn}/> }
+            {menu && <Popup  setMenu={setMenu}/> }
 
     
        </div>
