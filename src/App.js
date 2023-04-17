@@ -10,6 +10,9 @@ import Ourphilosophy from './Ourphilosophy'
 import Careclimate from './Careclimate'
 import Footer from './component/Footer';
 import Aboutblog from './component/Aboutblog';
+import Progressive from './Progressive';
+import Dutch from './Dutch';
+import Timeless from './Timeless';
 
 
 
@@ -32,6 +35,15 @@ function App() {
         </Route>
       <Route exact path="/collections">
           <Collections/>
+        </Route>
+        <Route exact path="/progressive">
+          <Progressive/>
+        </Route>
+        <Route exact path="/dutch">
+          <Dutch/>
+        </Route>
+        <Route exact path= "/timeless">
+          <Timeless/>
         </Route>
       <Route exact path="/carerepair">
           <Carerepair/>

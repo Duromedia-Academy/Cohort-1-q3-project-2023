@@ -118,7 +118,7 @@ const Aboutblog = () => {
                 </div>
             
                 <div className="grid grid-cols-2 p-2 md:grid-cols-3 md:p-[20px] lg:grid-cols-4 lg:px-[80px] ">
-                    <div className="border-r border-black pr-[10px] mb-[10px] md:mb-[20px] ">
+                    <div className="border-r border-black pr-[10px] mb-[10px] md:mb-[20px] xl:mr-[20px] ">
                         <img className=' ' src={require('../assets/mayoimg/7a.jpeg')} alt="" /> 
                         <h1 className= "font-[600]">
                         THE POWER OF SMALL
@@ -128,7 +128,7 @@ const Aboutblog = () => {
 
                         </p>
                     </div>
-                    <div className="pl-[10px] mb-[20px] md:border-r md:border-black md:pr-[10px] md:mb-[20px] ">
+                    <div className="pl-[10px] mb-[20px] md:border-r md:border-black md:pr-[10px] md:mb-[20px]  xl:mr-[10px] ">
                         <img className=' ' src={require('../assets/mayoimg/7b.jpeg')} alt="" />
                         <h1 className= "font-[600]">
                         OUR HEADQUARTERS
@@ -138,7 +138,7 @@ const Aboutblog = () => {
 
                         </p>
                     </div>
-                    <div className="border-r border-black pr-[10px] mb-[10px] md:border-0 md:pr-0 md:pl-[10px] lg:border-r lg:border-black lg:pr-[10px] ">
+                    <div className="border-r border-black pr-[10px] mb-[10px] md:border-0 md:pr-0 md:pl-[10px] lg:border-r lg:border-black lg:pr-[10px] xl:mr-[20px]  ">
                         <img className=' ' src={require('../assets/mayoimg/7c.jpeg')} alt="" />
                         <h1 className= "font-[600]">
                             HOW IT ALL STARTED
@@ -160,7 +160,7 @@ const Aboutblog = () => {
 
                         </p>
                     </div>
-                    <div className="border-r border-black pr-[10px] mb-[10px] md:pl-[10px]">
+                    <div className="border-r border-black pr-[10px] mb-[10px] md:pl-[10px] xl:mr-[20px]">
                         <img className=' ' src={require('../assets/mayoimg/7e.jpeg')} alt="" />
                         <h1 className= "font-[600]">
                             THE INDUSTRIAL EVOLUTION
