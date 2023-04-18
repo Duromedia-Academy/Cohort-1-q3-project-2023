@@ -362,22 +362,22 @@ const Ourphilosophy = () => {
             <Link to = '/aboutblog'> 
                 <div className="hidden md:block  ">
                     <div className="md:grid md:grid-cols-3  ">
-                        <div className="md:border-r md:border-black md:pr-[10px] md:mr-[10px] lg:border-0 lg:pr-0 lg:mr-0 ">
+                        <div className="md:border-r md:border-black md:pr-[10px] md:mr-[10px] lg:border-0 lg:pr-0 lg:mr-0 xl:pr-[0px]   ">
                            
-                             <img className='h-[300px] w-[250px] lg:h-[300px] lg:w-[300px] ' src= {require('./assets/mayoimg/4e.jpeg')} alt=""/>
+                             <img className='h-[300px] w-[250px] lg:h-[100vh] lg:w-[300px] xl:h-[100vh] xl:w-[600px] ' src= {require('./assets/mayoimg/4e.jpeg')} alt=""/>
                             <h1 className="md:font-[600]" ><Link to = "/aboutblog">MADE IN HOLLAND</Link></h1>
-                            <p>Made in holland with great care for quality and the enviroment. Ethically .made Designed to last.</p>
+                            <p className="mr-[50px]">Made in holland with great care for quality and the enviroment. Ethically .made Designed to last.</p>
                             
                         </div>
-                        <div className="md:border-r md:border-black md:pr-[10px] lg:border-0 lg:border-l  lg:border-black lg:pl-[20px]  ">
-                            <img className='h-[300px] w-[250px] lg:h-[300px] lg:w-[300px] ' src= {require('./assets/mayoimg/5b.jpeg')} alt="" />
+                        <div className="md:border-r md:border-black md:pr-[10px] lg:border-0 lg:border-l  lg:border-black lg:pl-[20px] xl:ml-[20px]  ">
+                            <img className='h-[300px] w-[250px] lg:h-[100vh] lg:w-[300px] xl:h-[100vh] xl:w-[600px] ' src= {require('./assets/mayoimg/5b.jpeg')} alt="" />
                             <h1 className="md:font-[600]">SECRID IS A CERTIFIED B CORP</h1>
-                            <p>Secrid believes that a brand can only be succesful when as many people as possible are part of the success</p>
+                            <p className="mr-[100px]">Secrid believes that a brand can only be succesful when as many people as possible are part of the success</p>
                         </div>
                         <div className="md:ml-[10px]    lg:border-black lg:border-l lg:pl-[20px]  ">
-                            <img className='h-[300px] w-[250px] lg:h-[300px] lg:w-[300px] ' src= {require('./assets/mayoimg/5c.jpeg')} alt="" />
+                            <img className='h-[300px] w-[250px] lg:h-[100vh] lg:w-[300px] xl:h-[100vh] xl:w-[600px] ' src= {require('./assets/mayoimg/5c.jpeg')} alt="" />
                             <h1 className="md:font-[600]">THE INDUSTRIAL EVOLUTION</h1>
-                            <p>A shift from industrial revolution to the industrial evolution</p>
+                            <p className="mr-[100px]">A shift from industrial revolution to the industrial evolution</p>
                         </div>
                     </div>
                 </div>

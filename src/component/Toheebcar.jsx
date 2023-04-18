@@ -9,16 +9,16 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
    //Owl Carousel Settings
 const options = {
     loop: true,
-    items: 3,
+    items: 7,
     margin: 0,
     autoplay: true,
     dots: true,
     autoplayTimeout: 8500,
     smartSpeed: 450,
-    nav: true,
+    nav: false,
     responsive: {
         0: {
-            items: 1
+            items: 2
         },
         600: {
             items: 3
