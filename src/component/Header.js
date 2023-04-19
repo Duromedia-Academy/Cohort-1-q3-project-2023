@@ -17,6 +17,8 @@ const Header = () => {
    // menu click
    const clicked =() => {
       setMenu(true)
+
+     
       
    }
 
