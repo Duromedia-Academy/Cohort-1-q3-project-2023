@@ -3027,6 +3027,10 @@ video {
     font-size: 50px;
   }
 
+  .lg\:font-semibold{
+    font-weight: 600;
+  }
+
   .lg\:leading-\[3rem\]{
     line-height: 3rem;
   }

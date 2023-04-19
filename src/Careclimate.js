@@ -35,7 +35,7 @@ const Careclimate = () => {
          <div className=" text-center py-36 px-10 bg-white">
             <h1 className=" italic text-3xl md:text-6xl lg:px-36">We are commited to make a shift from the Industrial Revolution to the <span className=" underline">Industrial</span> <span className=" underline"> Evolution</span></h1>
             <p className=" italic text-lg pt-10 font-semibold">Mr. Omotosho Toheeb O.</p>
-            <p>FOUNDERS OF SECRID</p>
+            <p className="">FOUNDERS OF SECRID</p>
          </div>
 
 
