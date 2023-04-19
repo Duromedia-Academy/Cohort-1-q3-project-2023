@@ -6,7 +6,7 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 
  // owl carousel settings
 const options = {
-    loop:false,
+    loop:true,
     items:3,
     margin:0,
     autoplay:true,
