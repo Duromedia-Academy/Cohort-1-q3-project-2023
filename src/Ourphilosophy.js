@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Ourphilosophy = () => {
     return (
-        <div className="container max-w-full bg-bg-white">
+        <div className=" max-w-full bg-bg-white">
 
             {/* header section */}
 
