@@ -677,12 +677,12 @@ video {
   top: -40px;
 }
 
-.top-\[200px\]{
-  top: 200px;
-}
-
 .top-\[110px\]{
   top: 110px;
+}
+
+.top-\[200px\]{
+  top: 200px;
 }
 
 .top-\[20px\]{
@@ -697,7 +697,10 @@ video {
   top: 40%;
 }
 
-<<<<<<< HEAD
+.top-\[440px\]{
+  top: 440px;
+}
+
 .top-\[70px\]{
   top: 70px;
 }
@@ -706,31 +709,20 @@ video {
   z-index: -50;
 }
 
-=======
-.top-\[440px\]{
-  top: 440px;
-}
-
-.top-\[65px\]{
-  top: 65px;
-}
-
->>>>>>> Careclimate
 .z-10{
   z-index: 10;
 }
 
-<<<<<<< HEAD
-.col-span-2{
-  grid-column: span 2 / span 2;
-=======
 .z-\[1\]{
   z-index: 1;
 }
 
+.col-span-2{
+  grid-column: span 2 / span 2;
+}
+
 .m-0{
   margin: 0px;
->>>>>>> Careclimate
 }
 
 .m-1{
@@ -936,13 +928,12 @@ video {
   margin-right: 10px;
 }
 
-<<<<<<< HEAD
 .mr-\[50px\]{
   margin-right: 50px;
-=======
+}
+
 .mt-1{
   margin-top: 0.25rem;
->>>>>>> Careclimate
 }
 
 .mt-11{
@@ -1350,10 +1341,18 @@ video {
   border-style: hidden;
 }
 
-<<<<<<< HEAD
 .border-\[\#474747\]{
   --tw-border-opacity: 1;
   border-color: rgb(71 71 71 / var(--tw-border-opacity));
+}
+
+.border-\[\#485c3f\]{
+  --tw-border-opacity: 1;
+  border-color: rgb(72 92 63 / var(--tw-border-opacity));
+}
+
+.border-\[\#b0b9acd4\]{
+  border-color: #b0b9acd4;
 }
 
 .border-\[\#c2c5c5\]{
@@ -1364,15 +1363,6 @@ video {
 .border-\[rgb\(141\2c 139\2c 139\)\]{
   --tw-border-opacity: 1;
   border-color: rgb(141 139 139 / var(--tw-border-opacity));
-=======
-.border-\[\#485c3f\]{
-  --tw-border-opacity: 1;
-  border-color: rgb(72 92 63 / var(--tw-border-opacity));
-}
-
-.border-\[\#b0b9acd4\]{
-  border-color: #b0b9acd4;
->>>>>>> Careclimate
 }
 
 .border-bg-white{
@@ -1409,15 +1399,14 @@ video {
   border-left-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
-<<<<<<< HEAD
 .bg-\[\#312A24\]{
   --tw-bg-opacity: 1;
   background-color: rgb(49 42 36 / var(--tw-bg-opacity));
-=======
+}
+
 .bg-\[\#485c3f\]{
   --tw-bg-opacity: 1;
   background-color: rgb(72 92 63 / var(--tw-bg-opacity));
->>>>>>> Careclimate
 }
 
 .bg-\[\#5C5648\]{
@@ -1445,7 +1434,11 @@ video {
   background-color: rgb(217 214 214 / var(--tw-bg-opacity));
 }
 
-<<<<<<< HEAD
+.bg-\[\#eae3c8\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(234 227 200 / var(--tw-bg-opacity));
+}
+
 .bg-\[rgb\(145\2c 158\2c 131\)\]{
   --tw-bg-opacity: 1;
   background-color: rgb(145 158 131 / var(--tw-bg-opacity));
@@ -1474,11 +1467,6 @@ video {
 .bg-\[rgb\(87\2c 147\2c 93\)\]{
   --tw-bg-opacity: 1;
   background-color: rgb(87 147 93 / var(--tw-bg-opacity));
-=======
-.bg-\[\#eae3c8\]{
-  --tw-bg-opacity: 1;
-  background-color: rgb(234 227 200 / var(--tw-bg-opacity));
->>>>>>> Careclimate
 }
 
 .bg-bg-white{
@@ -1778,7 +1766,6 @@ video {
   padding-bottom: 50px;
 }
 
-<<<<<<< HEAD
 .py-\[5px\]{
   padding-top: 5px;
   padding-bottom: 5px;
@@ -1792,10 +1779,10 @@ video {
 .py-\[90px\]{
   padding-top: 90px;
   padding-bottom: 90px;
-=======
+}
+
 .pb-10{
   padding-bottom: 2.5rem;
->>>>>>> Careclimate
 }
 
 .pb-2{
@@ -1822,10 +1809,6 @@ video {
   padding-bottom: 1rem;
 }
 
-<<<<<<< HEAD
-.pb-\[100px\]{
-  padding-bottom: 100px;
-=======
 .pb-5{
   padding-bottom: 1.25rem;
 }
@@ -1836,7 +1819,10 @@ video {
 
 .pb-8{
   padding-bottom: 2rem;
->>>>>>> Careclimate
+}
+
+.pb-\[100px\]{
+  padding-bottom: 100px;
 }
 
 .pb-\[10px\]{
@@ -1891,10 +1877,10 @@ video {
   padding-bottom: 80px;
 }
 
-<<<<<<< HEAD
 .pb-\[90px\]{
   padding-bottom: 90px;
-=======
+}
+
 .pl-2{
   padding-left: 0.5rem;
 }
@@ -1905,7 +1891,6 @@ video {
 
 .pl-7{
   padding-left: 1.75rem;
->>>>>>> Careclimate
 }
 
 .pl-\[10px\]{
@@ -1928,13 +1913,12 @@ video {
   padding-left: 5px;
 }
 
-<<<<<<< HEAD
 .pl-\[70px\]{
   padding-left: 70px;
-=======
+}
+
 .pr-10{
   padding-right: 2.5rem;
->>>>>>> Careclimate
 }
 
 .pr-16{
@@ -1981,17 +1965,16 @@ video {
   padding-right: 70px;
 }
 
-<<<<<<< HEAD
 .pr-\[90px\]{
   padding-right: 90px;
-=======
+}
+
 .pt-1{
   padding-top: 0.25rem;
 }
 
 .pt-10{
   padding-top: 2.5rem;
->>>>>>> Careclimate
 }
 
 .pt-12{
@@ -2078,13 +2061,12 @@ video {
   padding-top: 7px;
 }
 
-<<<<<<< HEAD
 .pt-\[80px\]{
   padding-top: 80px;
-=======
+}
+
 .text-left{
   text-align: left;
->>>>>>> Careclimate
 }
 
 .text-center{
@@ -2210,14 +2192,13 @@ video {
   font-size: 65px;
 }
 
-<<<<<<< HEAD
 .text-\[9px\]{
   font-size: 9px;
-=======
+}
+
 .text-lg{
   font-size: 1.125rem;
   line-height: 1.75rem;
->>>>>>> Careclimate
 }
 
 .text-sm{
@@ -2318,7 +2299,11 @@ video {
   letter-spacing: 0.1em;
 }
 
-<<<<<<< HEAD
+.text-\[\#485c3f\]{
+  --tw-text-opacity: 1;
+  color: rgb(72 92 63 / var(--tw-text-opacity));
+}
+
 .text-\[\#4b4c4d\]{
   --tw-text-opacity: 1;
   color: rgb(75 76 77 / var(--tw-text-opacity));
@@ -2327,11 +2312,6 @@ video {
 .text-\[rgb\(186\2c 76\2c 64\)\]{
   --tw-text-opacity: 1;
   color: rgb(186 76 64 / var(--tw-text-opacity));
-=======
-.text-\[\#485c3f\]{
-  --tw-text-opacity: 1;
-  color: rgb(72 92 63 / var(--tw-text-opacity));
->>>>>>> Careclimate
 }
 
 .text-amber-800{
@@ -2416,18 +2396,12 @@ video {
   opacity: 0.3;
 }
 
-<<<<<<< HEAD
 .shadow{
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.transition-\[ease\]{
-  transition-property: ease;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-=======
 .outline{
   outline-style: solid;
 }
@@ -2438,7 +2412,12 @@ video {
 
 .outline-\[\#eae3c8\]{
   outline-color: #eae3c8;
->>>>>>> Careclimate
+}
+
+.transition-\[ease\]{
+  transition-property: ease;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 
 .transition-all{
@@ -2548,12 +2527,12 @@ video {
     right: 150px;
   }
 
-  .md\:col-span-2{
-    grid-column: span 2 / span 2;
-  }
-
   .md\:z-\[-5\]{
     z-index: -5;
+  }
+
+  .md\:col-span-2{
+    grid-column: span 2 / span 2;
   }
 
   .md\:-ml-20{
@@ -2979,10 +2958,6 @@ video {
     text-align: center;
   }
 
-<<<<<<< HEAD
-  .md\:text-\[15px\]{
-    font-size: 15px;
-=======
   .md\:font-noto{
     font-family: Noto Serif JP, serif;
   }
@@ -3000,7 +2975,10 @@ video {
   .md\:text-8xl{
     font-size: 6rem;
     line-height: 1;
->>>>>>> Careclimate
+  }
+
+  .md\:text-\[15px\]{
+    font-size: 15px;
   }
 
   .md\:text-\[20px\]{
@@ -3075,17 +3053,16 @@ video {
     position: sticky;
   }
 
-<<<<<<< HEAD
+  .lg\:right-\[100px\]{
+    right: 100px;
+  }
+
   .lg\:top-\[300px\]{
     top: 300px;
   }
 
   .lg\:col-span-2{
     grid-column: span 2 / span 2;
-=======
-  .lg\:right-\[100px\]{
-    right: 100px;
->>>>>>> Careclimate
   }
 
   .lg\:my-0{
@@ -3308,7 +3285,10 @@ video {
     border-right-width: 1px;
   }
 
-<<<<<<< HEAD
+  .lg\:border-none{
+    border-style: none;
+  }
+
   .lg\:border-\[\#474747\]{
     --tw-border-opacity: 1;
     border-color: rgb(71 71 71 / var(--tw-border-opacity));
@@ -3322,10 +3302,6 @@ video {
   .lg\:border-\[rgb\(141\2c 139\2c 139\)\]{
     --tw-border-opacity: 1;
     border-color: rgb(141 139 139 / var(--tw-border-opacity));
-=======
-  .lg\:border-none{
-    border-style: none;
->>>>>>> Careclimate
   }
 
   .lg\:border-black{
@@ -3347,14 +3323,14 @@ video {
     border-right-color: rgb(0 0 0 / var(--tw-border-opacity));
   }
 
-<<<<<<< HEAD
   .lg\:p-0{
     padding: 0px;
   }
 
   .lg\:p-\[100px\]{
     padding: 100px;
-=======
+  }
+
   .lg\:px-20{
     padding-left: 5rem;
     padding-right: 5rem;
@@ -3363,7 +3339,6 @@ video {
   .lg\:px-36{
     padding-left: 9rem;
     padding-right: 9rem;
->>>>>>> Careclimate
   }
 
   .lg\:px-\[150px\]{
@@ -3371,14 +3346,14 @@ video {
     padding-right: 150px;
   }
 
-<<<<<<< HEAD
-  .lg\:px-\[20px\]{
-    padding-left: 20px;
-    padding-right: 20px;
-=======
   .lg\:px-\[19rem\]{
     padding-left: 19rem;
     padding-right: 19rem;
+  }
+
+  .lg\:px-\[20px\]{
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .lg\:px-\[21rem\]{
@@ -3389,7 +3364,6 @@ video {
   .lg\:px-\[23rem\]{
     padding-left: 23rem;
     padding-right: 23rem;
->>>>>>> Careclimate
   }
 
   .lg\:px-\[50px\]{
@@ -3407,26 +3381,24 @@ video {
     padding-right: 90px;
   }
 
-<<<<<<< HEAD
   .lg\:pb-0{
     padding-bottom: 0px;
-=======
+  }
+
   .lg\:pb-10{
     padding-bottom: 2.5rem;
->>>>>>> Careclimate
   }
 
   .lg\:pb-\[20px\]{
     padding-bottom: 20px;
   }
 
-<<<<<<< HEAD
   .lg\:pb-\[30px\]{
     padding-bottom: 30px;
-=======
+  }
+
   .lg\:pl-20{
     padding-left: 5rem;
->>>>>>> Careclimate
   }
 
   .lg\:pl-4{
@@ -3489,7 +3461,6 @@ video {
     padding-top: 0px;
   }
 
-<<<<<<< HEAD
   .lg\:pt-\[100px\]{
     padding-top: 100px;
   }
@@ -3498,28 +3469,14 @@ video {
     padding-top: 40px;
   }
 
-=======
->>>>>>> Careclimate
   .lg\:pt-\[50px\]{
     padding-top: 50px;
   }
 
-<<<<<<< HEAD
   .lg\:pt-\[650px\]{
     padding-top: 650px;
   }
 
-  .lg\:text-\[15px\]{
-    font-size: 15px;
-  }
-
-  .lg\:text-\[30px\]{
-    font-size: 30px;
-  }
-
-  .lg\:text-\[35px\]{
-    font-size: 35px;
-=======
   .lg\:text-2xl{
     font-size: 1.5rem;
     line-height: 2rem;
@@ -3546,7 +3503,18 @@ video {
 
   .lg\:text-\[12rem\]{
     font-size: 12rem;
->>>>>>> Careclimate
+  }
+
+  .lg\:text-\[15px\]{
+    font-size: 15px;
+  }
+
+  .lg\:text-\[30px\]{
+    font-size: 30px;
+  }
+
+  .lg\:text-\[35px\]{
+    font-size: 35px;
   }
 
   .lg\:text-\[50px\]{
