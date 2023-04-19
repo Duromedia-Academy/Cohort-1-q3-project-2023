@@ -74,7 +74,7 @@ const Header = () => {
       
          </div>
         {/* secrid navmenu   */}
-            {menu && <Popup  setMenu={setMenu}/> }
+          
 
     
        </div>
