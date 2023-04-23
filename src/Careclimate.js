@@ -4,7 +4,7 @@ import Heebc from "./component/Heebc";
 
 const Careclimate = () => {
     return ( 
-        <div className=" max-w-full m-0 p-0 box-border w-[100vw]">
+        <div className=" max-w-full m-0 p-0 box-border w-[100vw] bg-bg-white">
            
            <div className="mx-2 mt-2 lg:relative">
          <div className=" bg-[#d2c9af] py-20 pt-40">
