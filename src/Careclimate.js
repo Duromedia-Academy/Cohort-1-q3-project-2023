@@ -6,7 +6,7 @@ const Careclimate = () => {
     return ( 
         <div className=" max-w-full m-0 p-0 box-border w-[100vw] bg-bg-white">
            
-           <div className="mx-2 mt-2 lg:relative">
+           <div className="mx-2 mt-2 lg:relative bg-bg-white">
          <div className=" bg-[#d2c9af] py-20 pt-40">
 
         <div className=" flex flex-col items-center justify-center px-auto">
@@ -32,7 +32,7 @@ const Careclimate = () => {
          </div>
             </div>
 
-         <div className=" text-center py-36 px-10 bg-white">
+         <div className=" text-center py-36 px-10 ">
             <h1 className=" italic text-3xl md:text-6xl lg:px-36">We are commited to make a shift from the Industrial Revolution to the <span className=" underline">Industrial</span> <span className=" underline"> Evolution</span></h1>
             <p className=" italic text-lg pt-10 font-semibold">Mr. Omotosho Toheeb O.</p>
             <p className="">FOUNDERS OF SECRID</p>
@@ -106,7 +106,7 @@ const Careclimate = () => {
       </div>
 
 
-      <div className=" px-5 pr-10 pb-20 pt-20 bg-white lg:grid lg:grid-cols-2 lg:gap-56">
+      <div className=" px-5 pr-10 pb-20 pt-20  lg:grid lg:grid-cols-2 lg:gap-56">
          <h1 className="text-3xl font-semibold pb-8 italic lg:text-5xl lg:pl-20">"Our care for the environment"</h1>
 
          <div className="pl-5 border-l border-black lg:pb-10">
@@ -187,7 +187,7 @@ const Careclimate = () => {
       </div>
 
 
-      <div className=" py-20 bg-white mx-3">
+      <div className=" py-20 mx-3">
          <h1 className="text-xl font-bold lg:text-2xl">MORE ABOUT US</h1>
 
          
