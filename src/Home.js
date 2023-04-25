@@ -186,6 +186,16 @@ const Home = () => {
            </div>
            </div>
         </div>
+        <div>
+            <div>
+            <div className="relative ...">
+              <p>Relative parent</p>
+            <div className="absolute bottom-0 left-0 ...">
+              <p>Absolute child</p>
+           </div>
+     </div>
+            </div>
+        </div>
         </div>
        
     );
