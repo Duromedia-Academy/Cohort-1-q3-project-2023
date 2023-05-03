@@ -116,7 +116,7 @@ const Home = () => {
         <Imamcar/>
        {/* CAROUSEL 2 END */}
         {/* BAND WALLET START */}
-       <div className="lg:flex md:flex px-[20px] gap-[30px] py-[80px] ">
+       <div className="lg:flex md:flex p;px-[20px] gap-[30px] py-[80px] ">
         <div className="  ">       
             <img className="w-[100vw] h-[100vh] " src={ require ("./assets/img/card-protector-home.webp")} alt=""/>
         </div>
